@@ -15,6 +15,9 @@
 <meta property="og:locale:alternate" content="zh_CN">
 <meta property="og:title" content="PNLIR — Programme National de Lutte contre l'Insuffisance Rénale">
 <meta property="og:description" content="Près de 7 patients sur 10 découvrent leur maladie rénale au stade terminal. Comprendre, se faire dépister, agir à temps.">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="canonical" href="https://pnlir.cg/">
 <meta property="og:url" content="https://pnlir.cg/">
 <meta property="og:image" content="https://pnlir.cg/apercu-pnlir.png">
@@ -1769,7 +1772,7 @@ body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
   "PNLIR Congo"
  ],
  "url": "https://pnlir.cg/",
- "logo": "https://pnlir.cg/apercu-pnlir.png",
+ "logo": "https://pnlir.cg/logo-pnlir.png",
  "description": "Programme du Ministère de la Santé et de la Population de la République du Congo chargé de la prévention, du dépistage et de la prise en charge de l’insuffisance rénale.",
  "email": "programmenir@gmail.com",
  "telephone": [
@@ -3247,14 +3250,13 @@ function poserLogo(){
   const hero = document.getElementById('heroLogo');
   if (hero) hero.setAttribute('src', uri);
 
-  let icone = document.querySelector("link[rel='icon']");
-  if (!icone){
-    icone = document.createElement('link');
+  if (!document.querySelector("link[rel='icon']")){
+    const icone = document.createElement('link');
     icone.rel = 'icon';
     icone.type = 'image/png';
+    icone.href = uri;
     document.head.appendChild(icone);
   }
-  icone.href = uri;
 }
 
 const TR = {
