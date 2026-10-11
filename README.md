@@ -9,7 +9,7 @@ En ligne : https://pnlir.cg/
 
 - `index.html` : le site
 - `apercu-pnlir.png` : image affichée lors des partages (WhatsApp, Facebook…)
-- `PNLIR_Decret_2019-225.pdf` et `PNLIR_Plan_Travail_Annuel_2026.pdf` : documents de la rubrique Ressources
+- `PNLIR-Decret-2019-225.pdf`, `PNLIR-Plan-Strategique-National-2025-2029.pdf`, `PNLIR-Plan-Travail-Annuel-2026.pdf`, `PNLIR-Guide-Surveillance-Epidemiologique.pdf` : documents de la rubrique Ressources
 - `favicon.ico`, `favicon-192.png`, `apple-touch-icon.png`, `logo-pnlir.png` : icônes et logo
 - `robots.txt`, `sitemap.xml` : fichiers pour les moteurs de recherche
 

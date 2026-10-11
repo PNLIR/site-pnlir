@@ -1797,6 +1797,10 @@ input,select,button,textarea,optgroup{font-family:inherit;}
 .dv-barre svg{width:1em;height:1em;fill:currentColor;}
 .dv-cadre{flex:1;width:100%;border:0;background:#525659;}
 @media(max-width:600px){.dv-barre .dv-txt{display:none;}}
+
+#ressources .doc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}
+#ressources .doc-item{align-items:flex-start;}
+@media(max-width:768px){#ressources .doc-grid{grid-template-columns:1fr;}}
 </style>
 <script type="application/ld+json">
 {
@@ -3150,15 +3154,33 @@ document.documentElement.className += ' js';
             <span><i class="ic"><svg viewBox="0 0 24 24"><use href="#i-landmark" xlink:href="#i-landmark"/></svg></i><span data-i18n="dec.src">Présidence de la République</span></span>
           </div>
           <div class="doc-actions">
-            <button type="button" class="doc-btn doc-voir" onclick="voirDoc('PNLIR_Decret_2019-225.pdf', this)"><i class="ic"><svg viewBox="0 0 24 24"><use href="#i-eye" xlink:href="#i-eye"/></svg></i><span data-i18n="doc.voir">Consulter</span></button>
-            <a class="doc-btn doc-ouvrir" href="PNLIR_Decret_2019-225.pdf" target="_blank" rel="noopener"><i class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></i><span data-i18n="doc.ouvrir">Ouvrir</span></a>
-            <a class="doc-dl" href="PNLIR_Decret_2019-225.pdf" download="PNLIR_Decret_2019-225.pdf">
+            <button type="button" class="doc-btn doc-voir" onclick="voirDoc('PNLIR-Decret-2019-225.pdf', this)"><i class="ic"><svg viewBox="0 0 24 24"><use href="#i-eye" xlink:href="#i-eye"/></svg></i><span data-i18n="doc.voir">Consulter</span></button>
+            <a class="doc-btn doc-ouvrir" href="PNLIR-Decret-2019-225.pdf" target="_blank" rel="noopener"><i class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></i><span data-i18n="doc.ouvrir">Ouvrir</span></a>
+            <a class="doc-dl" href="PNLIR-Decret-2019-225.pdf" download="PNLIR - Décret 2019-225 portant création du PNLIR.pdf">
             <i class="ic"><svg viewBox="0 0 24 24"><use href="#i-download" xlink:href="#i-download"/></svg></i><span data-i18n="doc.dl">Télécharger</span>
           </a>
           </div>
         </div>
       </div>
-      <div class="doc-item ptab">
+      <div class="doc-item psn">
+        <div class="doc-icon"><i class="ic"><svg viewBox="0 0 24 24"><use href="#i-bullseye" xlink:href="#i-bullseye"/></svg></i></div>
+        <div class="doc-info">
+          <h5 data-i18n="psn.t">Plan Stratégique National de lutte contre l’insuffisance rénale 2025-2029</h5>
+          <p data-i18n="psn.d">Situation épidémiologique, problèmes prioritaires, objectifs, cadre logique, plan de financement et indicateurs de suivi : la feuille de route du programme pour cinq ans.</p>
+          <div class="doc-meta">
+            <span><i class="ic"><svg viewBox="0 0 24 24"><use href="#i-file-lines" xlink:href="#i-file-lines"/></svg></i>PDF · 87 <span data-i18n="ptab.pages">pages</span></span>
+            <span><i class="ic"><svg viewBox="0 0 24 24"><use href="#i-landmark" xlink:href="#i-landmark"/></svg></i><span data-i18n="ptab.src">Ministère de la Santé et de la Population</span></span>
+          </div>
+          <div class="doc-actions">
+            <button type="button" class="doc-btn doc-voir" onclick="voirDoc('PNLIR-Plan-Strategique-National-2025-2029.pdf', this)"><i class="ic"><svg viewBox="0 0 24 24"><use href="#i-eye" xlink:href="#i-eye"/></svg></i><span data-i18n="doc.voir">Consulter</span></button>
+            <a class="doc-btn doc-ouvrir" href="PNLIR-Plan-Strategique-National-2025-2029.pdf" target="_blank" rel="noopener"><i class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></i><span data-i18n="doc.ouvrir">Ouvrir</span></a>
+            <a class="doc-dl" href="PNLIR-Plan-Strategique-National-2025-2029.pdf" download="PNLIR - Plan Stratégique National 2025-2029.pdf">
+            <i class="ic"><svg viewBox="0 0 24 24"><use href="#i-download" xlink:href="#i-download"/></svg></i><span data-i18n="doc.dl">Télécharger</span>
+          </a>
+          </div>
+        </div>
+      </div>
+<div class="doc-item ptab">
         <div class="doc-icon"><i class="ic"><svg viewBox="0 0 24 24"><use href="#i-file-pdf" xlink:href="#i-file-pdf"/></svg></i></div>
         <div class="doc-info">
           <h5 data-i18n="ptab.t">Plan de Travail Annuel Budgétisé 2026</h5>
@@ -3168,9 +3190,27 @@ document.documentElement.className += ' js';
             <span><i class="ic"><svg viewBox="0 0 24 24"><use href="#i-landmark" xlink:href="#i-landmark"/></svg></i><span data-i18n="ptab.src">Ministère de la Santé et de la Population</span></span>
           </div>
           <div class="doc-actions">
-            <button type="button" class="doc-btn doc-voir" onclick="voirDoc('PNLIR_Plan_Travail_Annuel_2026.pdf', this)"><i class="ic"><svg viewBox="0 0 24 24"><use href="#i-eye" xlink:href="#i-eye"/></svg></i><span data-i18n="doc.voir">Consulter</span></button>
-            <a class="doc-btn doc-ouvrir" href="PNLIR_Plan_Travail_Annuel_2026.pdf" target="_blank" rel="noopener"><i class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></i><span data-i18n="doc.ouvrir">Ouvrir</span></a>
-            <a class="doc-dl" href="PNLIR_Plan_Travail_Annuel_2026.pdf" download="PNLIR_Plan_Travail_Annuel_2026.pdf">
+            <button type="button" class="doc-btn doc-voir" onclick="voirDoc('PNLIR-Plan-Travail-Annuel-2026.pdf', this)"><i class="ic"><svg viewBox="0 0 24 24"><use href="#i-eye" xlink:href="#i-eye"/></svg></i><span data-i18n="doc.voir">Consulter</span></button>
+            <a class="doc-btn doc-ouvrir" href="PNLIR-Plan-Travail-Annuel-2026.pdf" target="_blank" rel="noopener"><i class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></i><span data-i18n="doc.ouvrir">Ouvrir</span></a>
+            <a class="doc-dl" href="PNLIR-Plan-Travail-Annuel-2026.pdf" download="PNLIR - Plan de Travail Annuel Budgétisé 2026.pdf">
+            <i class="ic"><svg viewBox="0 0 24 24"><use href="#i-download" xlink:href="#i-download"/></svg></i><span data-i18n="doc.dl">Télécharger</span>
+          </a>
+          </div>
+        </div>
+      </div>
+<div class="doc-item guide">
+        <div class="doc-icon"><i class="ic"><svg viewBox="0 0 24 24"><use href="#i-book-open" xlink:href="#i-book-open"/></svg></i></div>
+        <div class="doc-info">
+          <h5 data-i18n="guide.t">Guide de surveillance épidémiologique de l’insuffisance rénale</h5>
+          <p data-i18n="guide.d">Définitions de cas, circuit de notification, analyse des données et indicateurs pour la surveillance de l’insuffisance rénale dans les formations sanitaires, sur le modèle de la surveillance intégrée de la maladie et de la riposte (SIMR).</p>
+          <div class="doc-meta">
+            <span><i class="ic"><svg viewBox="0 0 24 24"><use href="#i-file-lines" xlink:href="#i-file-lines"/></svg></i>PDF · 41 <span data-i18n="ptab.pages">pages</span></span>
+            <span><i class="ic"><svg viewBox="0 0 24 24"><use href="#i-landmark" xlink:href="#i-landmark"/></svg></i><span data-i18n="ptab.src">Ministère de la Santé et de la Population</span></span>
+          </div>
+          <div class="doc-actions">
+            <button type="button" class="doc-btn doc-voir" onclick="voirDoc('PNLIR-Guide-Surveillance-Epidemiologique.pdf', this)"><i class="ic"><svg viewBox="0 0 24 24"><use href="#i-eye" xlink:href="#i-eye"/></svg></i><span data-i18n="doc.voir">Consulter</span></button>
+            <a class="doc-btn doc-ouvrir" href="PNLIR-Guide-Surveillance-Epidemiologique.pdf" target="_blank" rel="noopener"><i class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></i><span data-i18n="doc.ouvrir">Ouvrir</span></a>
+            <a class="doc-dl" href="PNLIR-Guide-Surveillance-Epidemiologique.pdf" download="PNLIR - Guide de surveillance épidémiologique.pdf">
             <i class="ic"><svg viewBox="0 0 24 24"><use href="#i-download" xlink:href="#i-download"/></svg></i><span data-i18n="doc.dl">Télécharger</span>
           </a>
           </div>
@@ -3554,6 +3594,10 @@ const TR = {
     "prog.obj7": "Mobiliser les ressources nécessaires à la lutte contre l'insuffisance rénale",
     "prog.obj8": "Promouvoir la recherche et la formation sur l'insuffisance rénale",
     "ptab.t": "Plan de Travail Annuel Budgétisé 2026",
+    "psn.t": "Plan Stratégique National de lutte contre l’insuffisance rénale 2025-2029",
+    "psn.d": "Situation épidémiologique, problèmes prioritaires, objectifs, cadre logique, plan de financement et indicateurs de suivi : la feuille de route du programme pour cinq ans.",
+    "guide.t": "Guide de surveillance épidémiologique de l’insuffisance rénale",
+    "guide.d": "Définitions de cas, circuit de notification, analyse des données et indicateurs pour la surveillance de l’insuffisance rénale dans les formations sanitaires, sur le modèle de la surveillance intégrée de la maladie et de la riposte (SIMR).",
     "ptab.d": "Priorités, activités et cadre logique du programme pour l'année 2026, issus du Plan Stratégique National 2025-2029.",
     "ptab.pages": "pages",
     "ptab.src": "Ministère de la Santé et de la Population",
@@ -4072,6 +4116,10 @@ const TR = {
     "prog.obj7": "Mobilise the resources needed to fight kidney failure",
     "prog.obj8": "Promote research and training on kidney failure",
     "ptab.t": "2026 Annual Budgeted Work Plan",
+    "psn.t": "National Strategic Plan to Combat Kidney Failure 2025–2029",
+    "psn.d": "Epidemiological situation, priority problems, objectives, logical framework, financing plan and monitoring indicators: the programme’s five-year roadmap.",
+    "guide.t": "Epidemiological Surveillance Guide for Kidney Failure",
+    "guide.d": "Case definitions, reporting circuit, data analysis and indicators for monitoring kidney failure in health facilities, based on the Integrated Disease Surveillance and Response (IDSR) model.",
     "ptab.d": "The programme's priorities, activities and logical framework for 2026, drawn from the 2025-2029 National Strategic Plan.",
     "ptab.pages": "pages",
     "ptab.src": "Ministry of Health and Population",
@@ -4590,6 +4638,10 @@ const TR = {
     "prog.obj7": "Movilizar los recursos necesarios para la lucha contra la insuficiencia renal",
     "prog.obj8": "Promover la investigación y la formación sobre la insuficiencia renal",
     "ptab.t": "Plan de Trabajo Anual Presupuestado 2026",
+    "psn.t": "Plan Estratégico Nacional de Lucha contra la Insuficiencia Renal 2025-2029",
+    "psn.d": "Situación epidemiológica, problemas prioritarios, objetivos, marco lógico, plan de financiación e indicadores de seguimiento: la hoja de ruta del programa para cinco años.",
+    "guide.t": "Guía de vigilancia epidemiológica de la insuficiencia renal",
+    "guide.d": "Definiciones de caso, circuito de notificación, análisis de datos e indicadores para la vigilancia de la insuficiencia renal en los centros sanitarios, según el modelo de vigilancia integrada de enfermedades y respuesta (VIER).",
     "ptab.d": "Prioridades, actividades y marco lógico del programa para 2026, extraídos del Plan Estratégico Nacional 2025-2029.",
     "ptab.pages": "páginas",
     "ptab.src": "Ministerio de Salud y Población",
@@ -5108,6 +5160,10 @@ const TR = {
     "prog.obj7": "调动抗击肾功能不全所需的资源",
     "prog.obj8": "推动肾功能不全的研究与培训",
     "ptab.t": "2026年度预算工作计划",
+    "psn.t": "2025—2029年国家肾功能衰竭防治战略计划",
+    "psn.d": "流行病学现状、优先问题、目标、逻辑框架、筹资计划及监测指标：本规划未来五年的路线图。",
+    "guide.t": "肾功能衰竭流行病学监测指南",
+    "guide.d": "病例定义、报告流程、数据分析及指标，用于在各级医疗机构开展肾功能衰竭监测，参照疾病综合监测与应对（IDSR）模式。",
     "ptab.d": "本项目2026年度的工作重点、活动安排与逻辑框架，摘自《2025—2029年国家战略规划》。",
     "ptab.pages": "页",
     "ptab.src": "卫生与人口部",
@@ -5649,6 +5705,10 @@ const TR = {
     "res.title": "الموارد الوثائقية",
     "res.sub": "الوثائق الرسمية للبرنامج، متاحة للتحميل مجانًا.",
     "ptab.t": "خطة العمل السنوية المموّلة لعام 2026",
+    "psn.t": "الخطة الاستراتيجية الوطنية لمكافحة القصور الكلوي 2025-2029",
+    "psn.d": "الوضع الوبائي، والمشكلات ذات الأولوية، والأهداف، والإطار المنطقي، وخطة التمويل، ومؤشرات المتابعة: خارطة طريق البرنامج لخمس سنوات.",
+    "guide.t": "دليل الترصد الوبائي للقصور الكلوي",
+    "guide.d": "تعريفات الحالات، ومسار الإبلاغ، وتحليل البيانات، والمؤشرات لترصد القصور الكلوي في المرافق الصحية، وفق نموذج الترصد المتكامل للأمراض والاستجابة.",
     "ptab.d": "أولويات البرنامج وأنشطته وإطاره المنطقي لعام 2026، مستمدّة من الخطة الاستراتيجية الوطنية 2025-2029.",
     "ptab.pages": "صفحة",
     "ptab.src": "وزارة الصحة والسكان",
@@ -6320,7 +6380,9 @@ function voirDoc(fichier, bouton){
   document.getElementById('dvTitre').textContent = titre;
   document.getElementById('dvCadre').title = titre;
   document.getElementById('dvOuvrir').href = fichier;
-  const tel = document.getElementById('dvTelecharger'); tel.href = fichier; tel.setAttribute('download', fichier);
+  const tel = document.getElementById('dvTelecharger'); tel.href = fichier;
+  const lienDl = bouton.closest('.doc-info').querySelector('.doc-dl');
+  tel.setAttribute('download', (lienDl && lienDl.getAttribute('download')) || fichier);
   const libelles = vue.querySelectorAll('.dv-txt');
   libelles[0].textContent = tr('doc.ouvrir', 'Ouvrir');
   libelles[1].textContent = tr('doc.dl', 'Télécharger');
